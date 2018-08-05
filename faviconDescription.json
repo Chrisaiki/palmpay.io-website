@@ -1,0 +1,67 @@
+{
+	"masterPicture": "public/img/PalmPay900.png",
+	"iconsPath": "/",
+	"design": {
+		"ios": {
+			"masterPicture": "public/img/PalmPay900white.png",
+			"pictureAspect": "backgroundAndMargin",
+			"backgroundColor": "#128f52",
+			"margin": "14%",
+			"assets": {
+				"ios6AndPriorIcons": true,
+				"ios7AndLaterIcons": true,
+				"precomposedIcons": false,
+				"declareOnlyDefaultIcon": true
+			},
+			"appName": "PalmPay"
+		},
+		"desktopBrowser": {},
+		"windows": {
+			"pictureAspect": "whiteSilhouette",
+			"backgroundColor": "#128f52",
+			"onConflict": "override",
+			"assets": {
+				"windows80Ie10Tile": true,
+				"windows10Ie11EdgeTiles": {
+					"small": true,
+					"medium": true,
+					"big": true,
+					"rectangle": true
+				}
+			},
+			"appName": "PalmPay"
+		},
+		"androidChrome": {
+			"pictureAspect": "shadow",
+			"themeColor": "#29b872",
+			"manifest": {
+				"name": "PalmPay",
+				"startUrl": "http://www.palmpay.io/",
+				"display": "standalone",
+				"orientation": "notSet",
+				"onConflict": "override",
+				"declared": true
+			},
+			"assets": {
+				"legacyIcon": true,
+				"lowResolutionIcons": true
+			}
+		},
+		"safariPinnedTab": {
+			"pictureAspect": "silhouette",
+			"themeColor": "#128f52"
+		}
+	},
+	"settings": {
+		"compression": 5,
+		"scalingAlgorithm": "Lanczos",
+		"errorOnImageTooSmall": false,
+		"readmeFile": false,
+		"htmlCodeFile": true,
+		"usePathAsIs": false
+	},
+	"versioning": {
+		"paramName": "v4",
+		"paramValue": "eE58gaorm5"
+	}
+}

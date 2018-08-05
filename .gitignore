@@ -1,0 +1,9 @@
+*.key
+*.crt
+*.pem
+client/src/static/disabled/
+node_modules/
+outputDir/
+client/package-lock.json
+package-lock.json
+public/img/.tinypng-sigs

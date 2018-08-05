@@ -1,0 +1,200 @@
+[{
+	"lang": "en_US",
+	"elem": "//*[@id='nav_lang1']",
+	"text": "Services"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='nav_lang2']",
+	"text": "About"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='nav_lang3']",
+	"text": "Testimonies"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='nav_lang4']",
+	"text": "Downloads"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='header_lang1']",
+	"text": "Accept any Digital Currency at Zero Cost"
+},
+  {
+    "lang": "en_US",
+    "elem": "//*[@id='header_lang2']",
+    "text": "Cryptocurrencies bring Global Sales; Bitcoin Cash, bitUSD, bitEUR, bitRUB, bitXCD, bitSilver, Steem, Litecoin and more"
+  },
+{
+	"lang": "en_US",
+	"elem": "//*[@id='header_lang3']",
+	"text": "Tell me more"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='sr_lang1']",
+	"text": "100% FREE Crypto Point-Of-Sale Software for any Business"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='sr_lang2']",
+	"text": "Retail"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='sr_lang3']",
+	"text": "Cafe/Bars"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='sr_lang4']",
+	"text": "Restaurants"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='sr_lang5']",
+	"text": "Gas Stations"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='sr_lang6']",
+	"text": "Bill-Pay Counters"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='sr_lang7']",
+	"text": "Grocery"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='sr_lang8']",
+	"text": "Delivery Drivers"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='sr_lang9']",
+	"text": "Phone Orders"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang1']",
+	"text": "Integrates seamlessly with Existing Systems"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang2']",
+	"text": "PalmPay was built from the ground up to be Future-Proof. Business owners no longer need to stay savvy on the latest technologies. Blockchains and currencies come and go, but PalmPay supports them and offers them to your customers based upon their popularity, automatically."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang3']",
+	"text": "Zero cost. Zero setup fee. Zero transaction fee. Zero monthly fee. Your Customers pay the tiny 0.5% transaction fee to pay with their favorite digital currency."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang4']",
+	"text": "eReceipts, and advanced Export features enable simplified accounting and Tax reporting. Your Customers also receive a beautiful eReceipt directly to their smartphone after their payment."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang5']",
+	"text": "Faster and Safer than Cash. Customer transactions take 3 seconds or less. Let’s see cash or card Customers get through that fast!"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang6']",
+	"text": "Mobile Payments are quicker than ever. Process your Customer orders instantly"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang7']",
+	"text": "Whether you are delivering packages requiring payment, helping hundreds of Customers to speed through the checkout line, or just serving up the bill in a high-paced restaurant, PalmPay handles them all instantly."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang8']",
+	"text": "No more credit card expenses. No more cash robberies. Maximum Security and Zero Risk with no chance of ID-Theft or Card Fraud. PalmPay uses the Bitshares blockchain to instantly secure any transaction amount and has done so for over 3 years now, recently exceeding 3300 transactions per second."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang9']",
+	"text": "Hacking a blockchain is impossible since it uses Distributed Ledger Technology, instantly ensuring that each transaction is verified by hundreds of computers around the world."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang10']",
+	"text": "Cryptocurrency volatility is a thing of the past"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang11']",
+	"text": "PalmPay instantly converts Crypto into your stable, local currency in digital form, such as bitEUR, bitUSD, bitJPY, bitKRW, bitRUB or even bitGold and bitSilver."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang12']",
+	"text": "These Smartcoins are closely pegged 1:1 to their underlying asset so that you never have to worry about paying your bills with Crypto."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang13']",
+	"text": "For example, the Canadian merchant who just received some volatile Dogecoin, can receive it as price-stable bitCAD. One currency is instantly morphed into another, of the Merchants choice. PalmPay handles all of this in the background, allowing the customer to pay with whatever Crypto they prefer."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang14']",
+	"text": "This stability is the foundation of the Blockchain My City (<a href='docs/Blockchain_My_City_BMC.pdf'>BMC</a>) Initiative. PalmPay includes the ability to automatically pay every Ambassador and enrolled Government from the 0.5% that is collected from customers."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang15']",
+	"text": "Unlimited, free Technical Support from PalmPay Ambassadors"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang16']",
+	"text": "Free? Yes, totally free. PalmPay Ambassadors are paid automatically, every 3 seconds, via the Customer transaction fee mentioned above. So, if you ever have questions (in any of the 44 supported languages), just contact your local PalmPay Ambassador directly, or ask for one on Telegram at <a target='_blank' href='http://t.me/Agorise'>http://t.me/Agorise</a>"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang17']",
+	"text": "As long as your business has WiFi, and an Android tablet or smartphone (for the free PalmPay software), that’s literally all you need. No other hardware is needed. If desired, don’t forget to ask your PalmPay Ambassador for free window decals, stickers, flyers and promotional materials."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang18']",
+	"text": "Access your accounts anytime, from anywhere in the world"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang19']",
+	"text": "Monitor the transactions at one or more of your Businesses in real-time. Win, Mac, or Linux."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang20']",
+	"text": "The Bitshares decentralized exchange (DEX) provides the platform which PalmPay utilizes. Using their DEX, you can freely move money between accounts, get a Loan, go public, pay bills, Trade and even invest in other assets."
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ab_lang21']",
+	"text": "They’re the bank that never closes, never needs a bailout, and can never steal your money. Bitshares is not a company. It’s a distributed network of computers all running the same software providing maximum uptime. So, stop trusting humans with your money and become your own bank!"
+},
+{
+	"lang": "en_US",
+	"elem": "//*[@id='ft_lang1']",
+	"text": "FASTER AND SAFER THAN CASH"
+},
+  {
+    "lang": "en_US",
+    "elem": "//*[@id='cp_lang1']",
+    "text": "This website is not intended as legal or financial advice, is not a guarantee of anything and we do not collect any info about you whatsoever. PalmPay is a Point Of Sale product by Agorise, Ltd. For technical details, chat anytime 24/7 with the Agorise community on Telegram at: <a target='_blank' href='http://t.me/Agorise'>http://t.me/Agorise</a>"
+  },
+{
+	"lang": "en_US",
+	"elem": "//*[@id='mdl_lang1']",
+	"text": "Downloads"
+}]
