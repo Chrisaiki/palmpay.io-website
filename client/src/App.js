@@ -1,22 +1,9 @@
 import React from "react";
-import {
-  Navbar,
-  NavbarNav,
-  NavbarToggler,
-  Collapse,
-  NavItem,
-  Footer,
-  NavLink,
-  Row,
-  Col,
-  Container,
-  Modal,
-  ModalBody,
-  ModalHeader
-} from "mdbreact";
+import { Footer, Row, Col, Modal, ModalBody, ModalHeader } from "mdbreact";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Link, Events, animateScroll as scroll, scrollSpy } from "react-scroll";
-
+import { Events, animateScroll as scroll, scrollSpy } from "react-scroll";
+import HomeNav from "./components/HomeNav";
+import MarketingNav from "./components/MarketingNav";
 import "./index.css";
 import "./static/css/palmpay.css";
 
@@ -98,118 +85,7 @@ class App extends React.Component {
     return (
       <Router>
         <span id="apppage">
-          {!currentPath.includes("marketing") ? (
-            <Navbar dark expand="md" fixed="top" id="mainNav" scrolling>
-              <Container hidden={this.state.showmenu}>
-                <Link
-                  activeClass="active"
-                  className="navbar-brand"
-                  to="home"
-                  href="/"
-                  spy={true}
-                  smooth={true}
-                  offset={0}
-                  duration={500}
-                  onSetActive={this.handleSetActive}>
-                  <img
-                    alt=""
-                    className="logo1"
-                    src="./img/logo.png"
-                    width="100%"
-                  />
-                  <img
-                    alt=""
-                    className="logo2"
-                    src="./img/logo54.png"
-                    width="100%"
-                    style={{ display: "none" }}
-                  />
-                </Link>
-
-                <NavbarToggler onClick={this.onClick} />
-                <Collapse isOpen={this.state.collapse} navbar>
-                  <NavbarNav right>
-                    <NavItem>
-                      <Link
-                        activeClass="active"
-                        className="nav-link"
-                        to="services"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                        onSetActive={this.handleSetActive}>
-                        <span id="nav_lang1">Services</span>
-                      </Link>
-                    </NavItem>
-                    <NavItem>
-                      <Link
-                        activeClass="active"
-                        className="nav-link"
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                        onSetActive={this.handleSetActive}>
-                        <span id="nav_lang2">About</span>
-                      </Link>
-                    </NavItem>
-                    <NavItem>
-                      <Link
-                        activeClass="active"
-                        className="nav-link"
-                        href="#testimonies"
-                        to="testimonies"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                        onSetActive={this.handleSetActive}>
-                        <span id="nav_lang3">Testimonies</span>
-                      </Link>
-                    </NavItem>
-                    <NavItem>
-                      <NavLink to="#!" onClick={this.toggle2}>
-                        <span id="nav_lang4">Downloads</span>
-                      </NavLink>
-                    </NavItem>
-                  </NavbarNav>
-                </Collapse>
-              </Container>
-            </Navbar>
-          ) : (
-            <Navbar
-              dark
-              expand="md"
-              fixed="top"
-              id="mainNav"
-              scrolling
-              className="top-nav-collapse">
-              <Container hidden={this.state.showmenu}>
-                <a activeClass="active" className="navbar-brand" href="/">
-                  <img
-                    alt=""
-                    className="logo1"
-                    src="./img/logo.png"
-                    width="100%"
-                  />
-                  <img
-                    alt=""
-                    className="logo2"
-                    src="./img/logo54.png"
-                    width="100%"
-                    style={{ display: "none" }}
-                  />
-                </a>
-
-                <NavbarToggler onClick={this.onClick} />
-                <Collapse isOpen={this.state.collapse} navbar>
-                  <NavbarNav right />
-                </Collapse>
-              </Container>
-            </Navbar>
-          )}
+          {!currentPath.includes("marketing") ? <HomeNav /> : <MarketingNav />}
           {collapsed && overlay}
 
           <Routes />
