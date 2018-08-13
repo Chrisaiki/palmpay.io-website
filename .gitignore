@@ -7,3 +7,4 @@ outputDir/
 client/package-lock.json
 package-lock.json
 public/img/.tinypng-sigs
+acme/

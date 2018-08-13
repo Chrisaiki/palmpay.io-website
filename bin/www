@@ -10,10 +10,14 @@ var http = require("http");
 var fs = require("fs");
 var https = require("https");
 
+const key = fs.readFileSync('./acme/etc/live/palmpay.io/privkey.pem', 'utf8');
+const cert = fs.readFileSync('./acme/etc/live/palmpay.io/cert.pem', 'utf8');
+const ca = fs.readFileSync('./acme/etc/live/palmpay.io/chain.pem', 'utf8');
+
 var ssl_options = {
-  key: fs.readFileSync('./acme/etc/live/palmpay.io/privkey.pem'),
-  cert: fs.readFileSync('./acme/etc/live/palmpay.io/cert.pem'),
-  ca: fs.readFileSync('./acme/etc/live/palmpay.io/fullchain.pem')
+  key: key,
+  cert: cert,
+  ca: ca
 };
 
 /**
