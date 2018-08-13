@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /root/website
+greenlock certonly --webroot-path public --acme-version draft-11 --acme-url https://acme-v02.api.letsencrypt.org/dit.org/directory --agree-tos --email <EMAIL> --domains <--domains palmpay.io,palmpay.io <--- example> --community-member --config-dir ./acme/etc

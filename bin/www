@@ -11,9 +11,9 @@ var fs = require("fs");
 var https = require("https");
 
 var ssl_options = {
-  key: fs.readFileSync("./domain.key"),
-  cert: fs.readFileSync("./domain.crt"),
-  ca: fs.readFileSync("./intermediate.pem")
+  key: fs.readFileSync('./acme/etc/live/palmpay.io/privkey.pem'),
+  cert: fs.readFileSync('./acme/etc/live/palmpay.io/cert.pem'),
+  ca: fs.readFileSync('./acme/etc/live/palmpay.io/fullchain.pem')
 };
 
 /**
