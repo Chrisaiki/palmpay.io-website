@@ -101,7 +101,7 @@ class HomeNav extends React.Component {
                 </Link>
               </NavItem>
               <NavItem>
-                <NavLink to="#!" onClick={this.toggle2}>
+                <NavLink to="#!" onClick={this.props.toggle2}>
                   <span id="nav_lang4">Downloads</span>
                 </NavLink>
               </NavItem>

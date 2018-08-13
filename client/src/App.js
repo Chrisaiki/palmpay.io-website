@@ -85,7 +85,11 @@ class App extends React.Component {
     return (
       <Router>
         <span id="apppage">
-          {!currentPath.includes("marketing") ? <HomeNav /> : <MarketingNav />}
+          {!currentPath.includes("marketing") ? (
+            <HomeNav toggle2={this.toggle2} />
+          ) : (
+            <MarketingNav />
+          )}
           {collapsed && overlay}
 
           <Routes />
