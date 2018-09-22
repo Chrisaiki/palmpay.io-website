@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PalmPay</title>
+
+	  <!-- FB Open Graph data -->
+    <meta property="og:title" content="PalmPay">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://palmpay.io/PalmPayIO.png">
+    <meta property="og:description" content="Cryptocurrencies bring Global Sales; Bitcoin Cash, bitUSD, bitEUR, bitRUB, bitXCD, bitSilver, Steem, Litecoin and more.">
+    <meta property="og:url" content="http://palmpay.io/">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PalmPay">
+    <meta name="twitter:description" content="Cryptocurrencies bring Global Sales; Bitcoin Cash, bitUSD, bitEUR, bitRUB, bitXCD, bitSilver, Steem, Litecoin and more.">
+    <meta name="twitter:image" content="http://palmpay.io/PalmPayIO.png">
+    <meta name="twitter:url" content="http://palmpay.io/">
+
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+    <meta name="apple-mobile-web-app-title" content="PalmPay">
+    <meta name="application-name" content="PalmPay">
+    <meta name="msapplication-TileColor" content="#128f52">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?v4=eE58gaorm5">
+    <meta name="theme-color" content="#29b872">
+	  <!--script src="js/react-with-addons.js"></script>
+	  <script src="js/react-dom.js"></script>
+    <script src="js/react-simplehtmlparser.min.js"></script>
+    <script src="js/react-language-selector.js"></script-->
+  </head>
+  <body id="home">
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <span id="root"></span>
+	<!-- React Language Selector -->
+    <!--script type="text/javascript">
+        var lang = new React.LS('en_US');
+
+        lang.ready(function () {
+            //List of languages
+            var rlsui_languages = [
+                {
+                    id: 'en_US',
+                    langfile: 'js/languages/en.json',
+                    title: 'EN',
+                    name: 'EN',
+                    flagImg: 'img/flags/us.png',
+                    flagTitle: 'United States'
+                },
+                {
+                    id: 'el_GR',
+                    langfile: 'js/languages/el.json',
+                    title: 'GR',
+                    name: 'GR',
+                    flagImg: 'img/flags/gr.png',
+                    flagTitle: 'Greece'
+                },
+                /*
+                 {
+                 //id for loaded language pack also can be 'fr'
+                 id: 'fr_FR',
+                 //path to language pack
+                 langfile: 'languages/fr.json',
+                 title: 'French',
+                 name: 'French',
+                 flagImg: 'img/flags/fr.png',
+                 flagTitle: 'French'
+                 },*/
+            ];
+            //main part for loading language selector ui
+
+            ReactDOM.render(React.createElement(lang.UI, {
+                items: rlsui_languages,
+                selectedLang: window.lang.currentLang(),
+                showFlag: false,
+                onLanguageChanged: function (rlsui_lang) {
+                    lang.set_load_lang(rlsui_lang.id, rlsui_lang.langfile);
+                }
+            }), document.getElementById('langs'));
+        });</script-->
+  </body>
+</html>

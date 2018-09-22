@@ -1,0 +1,102 @@
+/* #apppage .gradient {
+    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+} */
+
+#maincontent {
+  min-height: 100%;
+}
+#apppage {
+  min-height: 100%;
+}
+#apppage h6 {
+  line-height: 1.7;
+}
+.footer {
+  position: relative;
+  clear: both;
+}
+.collapse.show {
+  padding-bottom: 20px;
+}
+#apppage .navbar {
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  box-shadow: 0px 0px !important;
+}
+
+#apppage .top-nav-collapse {
+  background: #128f52 !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+@media (max-width: 768px) {
+  #apppage .navbar:not(.top-nav-collapse) {
+    background: #128f52 !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+strong.important {
+  font-weight: 700 !important;
+}
+
+.testimonialc {
+  margin-bottom: 100px;
+}
+
+.carousel-item i {
+  font-size: 80px;
+  color: #128f52;
+  padding-bottom: 15px;
+}
+
+.testimonialc .carousel-item-next,
+.testimonialc .carousel-item-prev,
+.testimonialc .carousel-item.active {
+  display: block;
+}
+.testimonialc .carousel-indicators li {
+  height: 16px;
+  width: 16px;
+  max-width: 16px;
+  background-color: #3a3a3a;
+  margin-bottom: -60px;
+}
+.testimonialc .carousel-indicators .active {
+  height: 20px;
+  width: 20px;
+  max-width: 20px;
+  background-color: #71ad37;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.testimonialc .controls-top .btn-floating {
+  background: #4285f4;
+}
+.testimonialc .carousel-indicators {
+  margin-bottom: -5em;
+}
+.testimonialc .card {
+  margin: 1px;
+}
+.testimonialc .card-cascade.narrower {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 992px) {
+  .testimonialc .carousel-indicators li {
+    margin-bottom: -30px;
+  }
+}
+#testimonies {
+  padding: 14rem 0 !important;
+}
+@media (min-width: 1200px) {
+  .menuc {
+    max-width: 90% !important;
+  }
+}
