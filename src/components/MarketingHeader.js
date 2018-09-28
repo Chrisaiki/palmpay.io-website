@@ -18,6 +18,7 @@ class MarketingHeader extends React.Component {
     this.state = {
       collapse: false
     };
+
     this.onClick = this.onClick.bind(this);
     this.handleNavbarClick = this.handleNavbarClick.bind(this);
   }
@@ -36,6 +37,7 @@ class MarketingHeader extends React.Component {
 
   render() {
     return (
+      <div>
       <Navbar
         dark
         expand="md"
@@ -61,6 +63,7 @@ class MarketingHeader extends React.Component {
           </Collapse>
         </Container>
       </Navbar>
+      </div>
     );
   }
 }
