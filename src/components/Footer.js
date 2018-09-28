@@ -1,5 +1,6 @@
 import React from "react";
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
+import { Link } from 'react-router-dom';
 import {
   Footer as FooterBase,
   Row,
@@ -24,7 +25,9 @@ function Footer() {
       <div className="col-md-10 mx-md-auto">
 
           <Col className="logoFooter" md="4">
-            <img alt="" src={FooterLogo} />
+            <Link to="/">
+              <img alt="" src={FooterLogo} />
+            </Link>
           </Col>
 
           <Col md="4">
