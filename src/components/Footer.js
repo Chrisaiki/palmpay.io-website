@@ -8,7 +8,7 @@ import {
 } from "mdbreact";
 
 // Images
-import FooterLogo from '../assets/img/footer/footer_logo.png';
+import FooterLogo from '../assets/img/header/logo.png';
 import DtubeLogo from '../assets/img/footer/dtube.png';
 import SteemItLogo from '../assets/img/footer/steemit.png';
 
@@ -26,7 +26,7 @@ function Footer() {
 
           <Col className="logoFooter" md="4">
             <Link to="/">
-              <img alt="" src={FooterLogo} />
+              <img alt="" style={{ width: 173, height: 'auto' }} src={FooterLogo} />
             </Link>
           </Col>
 
