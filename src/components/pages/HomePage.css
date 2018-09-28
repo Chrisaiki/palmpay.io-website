@@ -5,3 +5,56 @@
   background-position: center center;
   height: 100vh;
 }
+@media screen and (max-width: 991px) {
+  .testimonialbox {
+    margin-bottom: 250px;
+  }
+}
+
+
+@media screen and (min-width: 991px) {
+.logoFooter {
+  text-align: left !important;
+  padding-left: 0 !important;
+}
+
+.brandTextFooter {
+  text-align: right !important;
+  padding-right: 0 !important;
+}
+.developersName {
+  text-align: right !important;
+}
+.developersName > div {
+  padding-right: 0 !important;
+}
+#home footer .col-md-10 {
+  padding-left: 0 !important; ;
+  padding-right: 0 !important; ;
+}
+.boxTestimonial {
+  padding-left: 0 !important;
+}
+.boxVideo {
+  padding-right: 0 !important;
+}
+}
+@media screen and (max-width: 991px) {
+.testimoniesBox {
+  padding-right: 0 !important;
+}
+  .box-video {
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .margin-5 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+.margin-5 {
+  padding: 3rem;
+}

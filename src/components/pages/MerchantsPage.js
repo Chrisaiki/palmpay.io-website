@@ -165,7 +165,10 @@ class MerchantsPage extends Component {
       merchant.map = <Button
         className="App-button"
         variant="contained"
-        color="primary"
+        style={{
+            backgroundColor: "#139657",
+            color: 'white'
+        }}
         onClick={() => this.openMaps(
           merchant.name,
           `${merchant.address}, ${merchant.city} - ${merchant.country}`,
@@ -180,7 +183,13 @@ class MerchantsPage extends Component {
     return (
       <div>
         <AppHeader />
-        <h2 style={centerStyle}><FormattedMessage id="merchants.title" /></h2>
+
+      <section data-spy="scroll" data-target="#mainNav" id="services">
+      <div className="containerfix">
+      <div className="row">
+      <div className="col-md-10 mx-md-auto">
+
+        <h2 className="ambassadorsTitle" style={centerStyle}><FormattedMessage id="merchants.title" /></h2>
         { /* Conditional Rendering */}
             {(this.state.loading) ? (
               <img src={LoadingGif} alt="Loading" style={loadingStyle} />
@@ -237,6 +246,10 @@ class MerchantsPage extends Component {
             </div>
           </div>
           )}
+</div>
+  </div>
+  </div>
+  </section>
         <Footer />
       </div>
     );

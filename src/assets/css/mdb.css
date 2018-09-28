@@ -3942,7 +3942,7 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
   padding-bottom: 1.5rem !important; }
 
 .p-5 {
-  padding: 3rem !important; }
+  padding: 3rem; }
 
 .pt-5 {
   padding-top: 3rem !important; }

@@ -14,15 +14,15 @@ import AboutImage5 from '../../assets/img/about/ab5.png';
 function AboutSection() {
   return (
     <section className="about bg-secondary" id="about">
-      <div className="container">
+      <div className="col-md-10 mx-md-auto">
         <div className="row align-items-center">
           <div className="col-lg-6 order-lg-2">
-            <div className="p-5">
+            <div className="margin-5">
               <img alt="" className="img-fluid" src={AboutImage1} />
             </div>
           </div>
           <div className="col-lg-6 order-lg-1">
-            <div className="p-5">
+            <div className="margin-5">
               <h2 className="about-text">
                 <span>
                   <span id="ab_lang1">
@@ -64,12 +64,12 @@ function AboutSection() {
 
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <div className="p-5">
+            <div className="margin-5">
               <img alt="" className="img-fluid" src={AboutImage2} />
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="p-5">
+            <div className="margin-5">
               <h2 className="about-text">
                 <span>
                   <span id="ab_lang6">
@@ -103,12 +103,12 @@ function AboutSection() {
 
         <div className="row align-items-center">
           <div className="col-lg-6 order-lg-2">
-            <div className="p-5">
+            <div className="margin-5">
               <img alt="" className="img-fluid" src={AboutImage3} />
             </div>
           </div>
           <div className="col-lg-6 order-lg-1">
-            <div className="p-5">
+            <div className="margin-5">
               <h2 className="about-text">
                 <span>
                   <span id="ab_lang10">
@@ -150,12 +150,12 @@ function AboutSection() {
 
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <div className="p-5">
+            <div className="margin-5">
               <img alt="" className="img-fluid" src={AboutImage4} />
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="p-5">
+            <div className="margin-5">
               <h2 className="about-text">
                 <span>
                   <span id="ab_lang15">
@@ -182,12 +182,12 @@ function AboutSection() {
 
         <div className="row align-items-center">
           <div className="col-lg-6 order-lg-2">
-            <div className="p-5">
+            <div className="margin-5">
               <img alt="" className="img-fluid" src={AboutImage5} />
             </div>
           </div>
           <div className="col-lg-6 order-lg-1">
-            <div className="p-5">
+            <div className="margin-5">
               <h2 className="display-5 about-text">
                 <span>
                   <span id="ab_lang18">

@@ -258,6 +258,7 @@ class LayerMap extends Component {
           <LayerMapSwitches
             ambassadors={this.state.ambassadorLayer}
             merchants={this.state.merchantLayer}
+            ambsMap={this.props.ambsMap}
             onChange={this.handleLayerChange}
           />
         ) : (

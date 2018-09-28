@@ -18,11 +18,23 @@ const styles = theme => ({
   },
   colorBar: {},
   colorChecked: {},
-  iOSSwitchBase: {
+  iOSSwitchBaseBlue: {
     '&$iOSChecked': {
       color: theme.palette.common.white,
       '& + $iOSBar': {
-        backgroundColor: '#52d869',
+        backgroundColor: "#2069b3",
+      },
+    },
+    transition: theme.transitions.create('transform', {
+      duration: theme.transitions.duration.shortest,
+      easing: theme.transitions.easing.sharp,
+    }),
+  },
+  iOSSwitchBaseGreen: {
+    '&$iOSChecked': {
+      color: theme.palette.common.white,
+      '& + $iOSBar': {
+        backgroundColor: "#139657",
       },
     },
     transition: theme.transitions.create('transform', {
@@ -76,7 +88,7 @@ class LayerMapSwitches extends React.Component {
                 onChange={this.props.onChange('ambassadorLayer')}
                 value="ambassadors"
                 classes={{
-                  switchBase: classes.iOSSwitchBase,
+                  switchBase: ( (this.props.ambsMap) ? classes.iOSSwitchBaseBlue : classes.iOSSwitchBaseGreen ),
                   bar: classes.iOSBar,
                   icon: classes.iOSIcon,
                   iconChecked: classes.iOSIconChecked,
@@ -90,7 +102,7 @@ class LayerMapSwitches extends React.Component {
             control={
               <Switch
                 classes={{
-                  switchBase: classes.iOSSwitchBase,
+                  switchBase: ( (this.props.ambsMap) ? classes.iOSSwitchBaseBlue : classes.iOSSwitchBaseGreen ),
                   bar: classes.iOSBar,
                   icon: classes.iOSIcon,
                   iconChecked: classes.iOSIconChecked,

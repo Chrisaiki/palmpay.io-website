@@ -17,7 +17,7 @@ function MainSection() {
     <View className="vmain">
       <Mask className="d-flex justify-content-center align-items-center gradient">
         <Container className="px-md-3 px-sm-0">
-          <Row>
+          <Row className="col-md-10 mx-md-auto">
             <Col lg="10" className="mx-auto white-text text-center">
               <h1 className="text-uppercase">
                 <strong className="important">

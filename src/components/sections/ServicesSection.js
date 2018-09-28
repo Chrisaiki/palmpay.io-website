@@ -17,7 +17,7 @@ import Retail from '../../assets/img/services/retail.png';
 function ServicesSection() {
   return (
     <section data-spy="scroll" data-target="#mainNav" id="services">
-      <div className="containerfix">
+      <div className="col-md-10 mx-md-auto">
         <div className="row">
           <div className="col-lg-12 text-center">
             <h2 className="section-heading">
@@ -30,7 +30,7 @@ function ServicesSection() {
         </div>
       </div>
       <div className="containerfix">
-        <div className="row">
+        <div className="row"  style={{ margin: 'auto' }}>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="service-box mt-5 mx-auto">
               <i className="fa fa-4x text-primary mb-3 sr-icons">

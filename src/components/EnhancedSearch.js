@@ -30,6 +30,7 @@ const styles = theme => ({
   },
   textField: {
     flexBasis: 280,
+    borderColor: "#139657"
   },
 });
 
@@ -49,7 +50,7 @@ class EnhancedSearch extends Component {
 				<div className="search-books-bar">
 					<div className="search-books-input-wrapper" style={{ textAlign: 'left', marginLeft: 20}}>
 						<TextField
-							style={{ textAlign: 'left', width: 350}}
+							style={{ textAlign: 'left', width: 350,borderColor: "#139657" }}
 							id="outlined-adornment-weight"
 							className={classNames(classes.margin, classes.textField)}
 		          variant="outlined"

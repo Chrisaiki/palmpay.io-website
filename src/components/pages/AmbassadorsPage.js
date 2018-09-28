@@ -57,8 +57,8 @@ const columnData = [
   { id: 'keybase', numeric: false, disablePadding: false, label: 'Keybase' },
   { id: 'email', numeric: false, disablePadding: false, label: 'Email' },
   { id: 'phone', numeric: false, disablePadding: false, label: 'Phone' },
-  { id: 'map', numeric: false, disablePadding: false, label: 'Maps', disableSearch: true},
-  { id: 'link', numeric: false, disablePadding: false, label: 'URL' }
+  { id: 'link', numeric: false, disablePadding: false, label: 'URL' },
+  { id: 'map', numeric: false, disablePadding: false, label: 'Maps', disableSearch: true}
 ];
 
 /**
@@ -171,7 +171,10 @@ class AmbassadorsPage extends Component {
         ambassador.map = <Button
         className="App-button"
         variant="contained"
-        color="primary"
+        style={{
+            backgroundColor: "#2069b3",
+            color: 'white'
+        }}
         onClick={() => this.openMaps(
           ambassador.nickname,
           `${ambassador.city} - ${ambassador.country}`,
@@ -186,7 +189,15 @@ class AmbassadorsPage extends Component {
     return (
       <div>
         <AppHeader />
-        <h2 style={centerStyle}><FormattedMessage id="ambassadors.title" /></h2>
+
+        <div id="maincontent">
+      <section data-spy="scroll" data-target="#mainNav" id="services">
+      <div className="containerfix">
+      <div className="row">
+      <div className="col-md-10 mx-md-auto">
+
+
+        <h2 className="ambassadorsTitle" style={centerStyle}><FormattedMessage id="ambassadors.title" /></h2>
         { /* Conditional Rendering */}
             {(this.state.loading) ? (
               <img src={LoadingGif} alt="Loading" style={loadingStyle} />
@@ -237,11 +248,18 @@ class AmbassadorsPage extends Component {
                 ambassadorsLayer={true}
                 merchantsLayer={false}
                 mapHeight={'600px'}
+                ambsMap={true}
                 showControls={this.state.mapsModalIsOpen}
               />
             </div>
           </div>
         )}
+</div>
+  </div>
+</div>
+</section>
+  </div>
+
         <Footer />
       </div>
     );
