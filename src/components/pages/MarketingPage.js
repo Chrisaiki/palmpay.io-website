@@ -3,7 +3,8 @@ import { Button, Collapse } from "mdbreact";
 import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
 
 // Custom components
-import MarketingHeader from '../MarketingHeader';
+import AppHeader from '../AppHeader';
+import Footer from '../Footer';
 
 /**
  * Marketing page component.
@@ -85,7 +86,7 @@ class MarketingPage extends React.Component {
   render() {
     return (
         <div>
-        <MarketingHeader />
+        <AppHeader />
         <div id="maincontent">
         <section data-spy="scroll" data-target="#mainNav" id="services">
         <div className="containerfix">
@@ -168,6 +169,7 @@ class MarketingPage extends React.Component {
 </div>
 </section>
 </div>
+<Footer />
 </div>
   );
   }

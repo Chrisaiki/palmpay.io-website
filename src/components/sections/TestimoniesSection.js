@@ -40,7 +40,7 @@ const testimonies = [
 class TestimoniesSection extends React.Component {
   constructor(props) {
     super(props);
-    
+
     this.state = {
       activeItem: 1,
       maxLength: testimonies.length
@@ -53,9 +53,14 @@ class TestimoniesSection extends React.Component {
     return (
       <span>
       <section className="testimonials text-center" id="testimonies">
-        <div className="container">
+        <div className="col-md-10 mx-md-auto">
           <Row>
-            <Col lg="6">
+            <Col lg="6"
+              style={{
+                border: '1px solid #128f52',
+                paddingTop: '10px',
+                paddingLeft: '0'
+            }} className ="testimoniesBox">
               <Carousel
                 className="testimonialc"
                 activeItem={activeItem}
@@ -64,7 +69,9 @@ class TestimoniesSection extends React.Component {
                 showControls={true}
                 showIndicators={true}
               >
-                <CarouselInner>
+                <CarouselInner
+                  className="testimonialbox"
+              >
                   <Row>
                     {testimonies.map( (testimony, index) => (
                       <CarouselItem itemId={index+1} key={index}>
@@ -81,7 +88,10 @@ class TestimoniesSection extends React.Component {
                 </CarouselInner>
               </Carousel>
             </Col>
-            <Col lg="6" className="mx-auto white-text text-center">
+            <Col lg="6"
+              style={{
+              paddingRight: '0' }}
+              className="mx-auto white-text text-center box-video">
               <div className="embed-responsive embed-responsive-16by9">
                 <iframe
                   className="embed-responsive-item"

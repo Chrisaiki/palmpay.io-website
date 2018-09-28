@@ -20,7 +20,10 @@ function Footer() {
     <FooterBase className="footer text-center">
       <div className="containerfix">
         <Row className="vertical-align footerrow">
-          <Col md="4">
+
+      <div className="col-md-10 mx-md-auto">
+
+          <Col className="logoFooter" md="4">
             <img alt="" src={FooterLogo} />
           </Col>
 
@@ -68,19 +71,20 @@ function Footer() {
               </li>
             </ul>
           </Col>
-          <Col md="4">
+          <Col className="brandTextFooter" md="4">
             <p className="mb-0">
               <span id="ft_lang1">
                 <FormattedMessage id="footer.title" />
               </span>
             </p>
           </Col>
+          </div>
         </Row>
 
         <div
           className="copyright py-3 text-center text-white"
           style={{ fontSize: "0.8em" }}>
-          <div>
+<div className="col-md-10 mx-md-auto">
             <div className="row vertical-align">
               <div className="col-md-10 mx-md-auto">
                 <p>
@@ -106,7 +110,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="row justify-content-end">
+            <div className="row developersName justify-content-end">
               <div
                 style={{ fontSize: "0.8em" }}
                 className="text-white col-md-2">

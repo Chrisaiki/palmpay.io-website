@@ -66,7 +66,7 @@ p {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 8rem 0; }
+  padding: 50px 0; }
 
 .section-heading {
   margin-top: 0; }
@@ -163,7 +163,9 @@ img::-moz-selection {
       padding-top: 0px;
       padding-bottom: 0px; }
       #mainNav .navbar-brand .logo1 {
-        display: none !important; }
+        /*display: none !important;*/
+      width: 223px;
+      }
       #mainNav .navbar-brand .logo2 {
         display: inline !important; } }
   @media (min-width: 992px) {
@@ -293,8 +295,8 @@ header.masthead {
 
 .copyright {
   background-color: #212529;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  /*padding-left: 6rem;
+  padding-right: 6rem;*/
   }
 
 ul.social-buttons {
@@ -350,3 +352,16 @@ ul.social-buttons {
 }
 
 	  }
+.search-books-input-wrapper {
+  margin-left: 0 !important;
+}
+#testimonies .container .row > div {
+  border: none !important;
+}
+.ambassadorsTitle {
+  margin-top: 0 !important;
+}
+.about.bg-secondary > div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
