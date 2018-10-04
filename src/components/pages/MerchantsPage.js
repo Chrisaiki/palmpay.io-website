@@ -19,6 +19,8 @@ import Countries from 'country-list';
 import LoadingGif from '../../assets/img/loading_icon.gif';
 import MerchantPin from '../../assets/img/map/merchant_pin.png';
 
+import "./MerchantsPage.css";
+
 // List of countries
 const countries = Countries();
 

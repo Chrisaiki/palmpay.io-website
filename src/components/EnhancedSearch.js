@@ -30,8 +30,11 @@ const styles = theme => ({
   },
   textField: {
     flexBasis: 280,
-    borderColor: "#139657"
   },
+  focused: {
+    color: '#139657',
+    backgroundColor: '#139657',
+  }
 });
 
 /**
@@ -50,18 +53,19 @@ class EnhancedSearch extends Component {
 				<div className="search-books-bar">
 					<div className="search-books-input-wrapper" style={{ textAlign: 'left', marginLeft: 20}}>
 						<TextField
-							style={{ textAlign: 'left', width: 350,borderColor: "#139657" }}
+							style={{ textAlign: 'left', width: 350 }}
 							id="outlined-adornment-weight"
 							className={classNames(classes.margin, classes.textField)}
-		          variant="outlined"
-		          label="Search"
+              classes={{ focused: classes.focused }}
+              variant="outlined"
+              label="Search"
               placeholder="Enter search term"
-		          value={query}
-		          onChange={(event) => onUpdateQuery(event.target.value)}
-		          InputProps={{
-		            startAdornment: <InputAdornment position="start"><Search /></InputAdornment>,
-		          }}
-		        />
+              value={query}
+              onChange={(event) => onUpdateQuery(event.target.value)}
+              InputProps={{
+                startAdornment: <InputAdornment position="start"><Search /></InputAdornment>,
+              }}
+              />
 						<br />
             {this.props.showSearchColumns && this.props.columns.map(column => (
               <FormControlLabel
@@ -80,7 +84,7 @@ class EnhancedSearch extends Component {
 				</div>
 			</div>
 		);
-	};
+	}
 }
 
 // Type checking the props of the component
