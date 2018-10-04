@@ -100,9 +100,7 @@ class MarketingPage extends React.Component {
   }
 
   render() {
-    console.log(this.state.height);
     const whiteSpaceheight = (this.state.height > 602) ? this.state.height - 602: 0;
-    console.log(whiteSpaceheight);
     return (
       <div>
       <AppHeader />

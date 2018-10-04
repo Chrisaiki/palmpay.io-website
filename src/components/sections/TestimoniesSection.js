@@ -43,12 +43,32 @@ class TestimoniesSection extends React.Component {
 
     this.state = {
       activeItem: 1,
-      maxLength: testimonies.length
+      maxLength: testimonies.length,
+      width: 0,
+      height: 0
     };
+
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+
 
   render() {
     const { activeItem, maxLength } = this.state;
+
+    const fontSize = (this.state.width > 1000) ? 16 * (1 + (this.state.width/2000)): 16;
 
     return (
       <span>
@@ -77,8 +97,8 @@ class TestimoniesSection extends React.Component {
                       <CarouselItem itemId={index+1} key={index}>
                         <Col mb-lg="0" mx="auto" mb="4">
                           <i className="fa fa-user-circle-o" />
-                          <h5>{testimony.name} &#9733;&#9733;&#9733;&#9733;&#9733;</h5>
-                          <div className="font-weight-light mb-3">
+                          <h5 style={{fontSize}}>{testimony.name} &#9733;&#9733;&#9733;&#9733;&#9733;</h5>
+                          <div style={{fontSize}} className="font-weight-light mb-3">
                             &#34;{testimony.description}&#34;
                           </div>
                         </Col>
