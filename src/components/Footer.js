@@ -25,9 +25,13 @@ function Footer() {
       <div className="col-md-10 mx-md-auto">
 
           <Col className="logoFooter" md="4">
+<<<<<<< HEAD
             <Link to="/">
               <img alt="" style={{ width: 173, height: 'auto' }} src={FooterLogo} />
             </Link>
+=======
+            <img alt="" src={FooterLogo} />
+>>>>>>> 8fc4294cf6ad01f2a1053798e64d17cfb6fdc2ae
           </Col>
 
           <Col md="4">
