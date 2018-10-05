@@ -1,0 +1,86 @@
+{
+  "header.services": "Services",
+  "header.about": "About",
+  "header.testimonies": "Testimonies",
+  "header.downloads": "Downloads",
+
+  "home.about.about1_title": "Integrates seamlessly with Existing Systems",
+  "home.about.about1_description1": "PalmPay was built from the ground up to be Future-Proof. Business owners no longer need to stay savvy on the latest technologies. Blockchains and currencies come and go, but PalmPay supports them and offers them to your customers based upon their popularity, automatically.",
+  "home.about.about1_description2": "Zero cost. Zero setup fee. Zero transaction fee. Zero monthly fee. Your Customers pay the tiny 0.5% transaction fee to pay with their favorite digital currency.",
+  "home.about.about1_description3": "eReceipts, and advanced Export features enable simplified accounting and Tax reporting. Your Customers also receive a beautiful eReceipt directly to their smartphone after their payment.",
+  "home.about.about1_description4": "Faster and Safer than Cash. Customer transactions take 3 seconds or less. Let’s see cash or card Customers get through that fast!",
+
+  "home.about.about2_title": "Mobile Payments are quicker than ever. Process your Customer orders instantly",
+  "home.about.about2_description1": "Whether you are delivering packages requiring payment, helping hundreds of Customers to speed through the checkout line, or just serving up the bill in a high-paced restaurant, PalmPay handles them all instantly.",
+  "home.about.about2_description2": "No more credit card expenses. No more cash robberies. Maximum Security and Zero Risk with no chance of ID-Theft or Card Fraud. PalmPay uses the Bitshares blockchain to instantly secure any transaction amount and has done so for over 3 years now, recently exceeding 3300 transactions per second.",
+  "home.about.about2_description3": "Hacking a blockchain is impossible since it uses Distributed Ledger Technology, instantly ensuring that each transaction is verified by hundreds of computers around the world.",
+
+  "home.about.about3_title": "Cryptocurrency volatility is a thing of the past",
+  "home.about.about3_description1": "PalmPay instantly converts Crypto into your stable, local currency in digital form, such as bitEUR, bitUSD, bitJPY, bitKRW, bitRUB or even bitGold and bitSilver.",
+  "home.about.about3_description2": "These Smartcoins are closely pegged 1:1 to their underlying asset so that you never have to worry about paying your bills with Crypto.",
+  "home.about.about3_description3": "For example, the Canadian merchant who just received some volatile Dogecoin, can receive it as price-stable bitCAD. One currency is instantly morphed into another, of the Merchants choice. PalmPay handles all of this in the background, allowing the customer to pay with whatever Crypto they prefer.",
+  "home.about.about3_description4": "This stability is the foundation of the Blockchain My City (<a href='docs/Blockchain_My_City_BMC.pdf'>BMC</a>) Initiative. PalmPay includes the ability to automatically pay every Ambassador and enrolled Government from the 0.5% that is collected from customers.",
+
+  "home.about.about4_title": "Unlimited, free Technical Support from PalmPay Ambassadors",
+  "home.about.about4_description1": "Free? Yes, totally free. PalmPay Ambassadors are paid automatically, every 3 seconds, via the Customer transaction fee mentioned above. So, if you ever have questions (in any of the 44 supported languages), just contact your local PalmPay Ambassador directly, or ask for one on Telegram at <a 'target=_blank' rel='noopener noreferrer' href='http://t.me/Agorise'> http://t.me/Agorise </a>",
+  "home.about.about4_description2": "As long as your business has WiFi, and an Android tablet or smartphone (for the free PalmPay software), that’s literally all you need. No other hardware is needed. If desired, don’t forget to ask your PalmPay Ambassador for free window decals, stickers, flyers and promotional materials.",
+
+  "home.about.about5_title": "Access your accounts anytime, from anywhere in the world",
+  "home.about.about5_description1": "Monitor the transactions at one or more of your Businesses in real-time. Win, Mac, or Linux.",
+  "home.about.about5_description2": "The Bitshares decentralized exchange (DEX) provides the platform which PalmPay utilizes. Using their DEX, you can freely move money between accounts, get a Loan, go public, pay bills, Trade and even invest in other assets.",
+  "home.about.about5_description3": "They’re the bank that never closes, never needs a bailout, and can never steal your money. Bitshares is not a company. It’s a distributed network of computers all running the same software providing maximum uptime. So, stop trusting humans with your money and become your own bank!",
+
+  "home.main.banner_title": "Accept any Digital Currency at Zero Cost",
+  "home.main.banner_description": "Cryptocurrencies bring Global Sales; Bitcoin Cash, bitUSD, bitEUR, bitRUB, bitXCD, bitSilver, Steem, Litecoin and more",
+  "home.main.banner_button": "Tell me more",
+
+  "home.services.section_title": "100% FREE Crypto Point-Of-Sale Software for any Business",
+  "home.services.retail": "Retail",
+  "home.services.cafe_bars": "Cafe/Bars",
+  "home.services.restaurants": "Restaurants",
+  "home.services.gas_stations": "Gas Stations",
+  "home.services.bill_pay": "Bill-Pay Counters",
+  "home.services.grocery": "Grocery",
+  "home.services.delivery_drivers": "Delivery Drivers",
+  "home.services.phone_orders": "Phone Orders",
+
+  "footer.title": "FASTER AND SAFER THAN CASH",
+  "footer.description": "This website is not intended as legal or financial advice, is not a guarantee of anything and we do not collect any info about you whatsoever. PalmPay is a Point Of Sale product by Agorise, Ltd. For technical details, chat anytime 24/7 with the Agorise community on Telegram at: <a target='_blank' rel='noopener noreferrer' href='http://t.me/Agorise'> http://t.me/Agorise </a>",
+
+  "marketing.button.presentations": "Presentations",
+  "marketing.accordion.presentations1": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/presentation/d/1oYQxlKIzNHb-F07PJ04xsK0jIJcduIzc-4HMpbqAw0o/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Slides (ES) - Google Slides (for Meetups and Workshops etc) in Spanish </h5> </div> <p class='mb-1'> https://docs.google.com/presentation/d/1oYQxlKIzNHb-F07PJ04xsK0jIJcduIzc-4HMpbqAw0o/edit?usp=sharing </p> </a>",
+  "marketing.accordion.presentations2": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/presentation/d/1HgYeEQ0NUeHesnX1Xy4OUi9Nng4P9O4-yH_7fWnwF6Q/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Slides (EN) - Here is a nice powerpoint (Google Slides actually) that you can copy and edit to your liking for PalmPay Meetups, Workshops, etc. </h5> </div> <p class='mb-1'> https://docs.google.com/presentation/d/1HgYeEQ0NUeHesnX1Xy4OUi9Nng4P9O4-yH_7fWnwF6Q/edit?usp=sharing </p> </a>",
+  "marketing.accordion.presentations3": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/spreadsheets/d/1um5BJiI4infLVBFzsNFG4aV_hGuVAluWztI0UIT0oL4/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> FAQ (EN, ES, GR, and RU) - These are the most common questions that people ask about PalmPay </h5> </div> <p class='mb-1'> https://docs.google.com/spreadsheets/d/1um5BJiI4infLVBFzsNFG4aV_hGuVAluWztI0UIT0oL4/edit?usp=sharing </p> </a>",
+
+  "marketing.button.flyers": "Flyers",
+  "marketing.accordion.flyers1": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1JwFRD3mszf9RoTlthp9lkfQdbGmdrWwGDcBP3yXLrpM/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Affordable Flyers (EN) - Single-page flyers in English </h5> </div> <p class='mb-1'> https://docs.google.com/document/d/1JwFRD3mszf9RoTlthp9lkfQdbGmdrWwGDcBP3yXLrpM/edit?usp=sharing </p> </a>",
+  "marketing.accordion.flyers2": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/11FMi5_iMWOUDHKnoWWEn4jyzwleWkdLvvPr3KrhmJHA/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Affordable Flyers (ES) - Single-page flyers in Spanish </h5> </div> <p class='mb-1'> https://docs.google.com/document/d/11FMi5_iMWOUDHKnoWWEn4jyzwleWkdLvvPr3KrhmJHA/edit?usp=sharing </p> </a>",
+  "marketing.accordion.flyers3": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1Qk5sX-KmwrCrDWsDxcLpe1xXFVWhOUP4VykURXBHRCk/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Affordable Flyers (KO) - Single-page flyers in Korean </h5> </div> <p class='mb-1'> https://docs.google.com/document/d/1Qk5sX-KmwrCrDWsDxcLpe1xXFVWhOUP4VykURXBHRCk/edit?usp=sharing </p> </a>",
+  "marketing.accordion.flyers4": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/13ObHTeIOY6KrAH4nOhNGiCITOArSxTATCJ0oCy0E-kc/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Affordable Flyers (NL) - Single-page flyers in Dutch </h5> </div> <p class='mb-1'> https://docs.google.com/document/d/13ObHTeIOY6KrAH4nOhNGiCITOArSxTATCJ0oCy0E-kc/edit?usp=sharing </p> </a>",
+  "marketing.accordion.flyers5": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1YHZJTXZSI_OWw633gVVHc3TBQphHxAKP2v9YKRnhHy8/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Affordable Flyers (RO) - Single-page flyers in Romanian </h5> </div> <p class='mb-1'> https://docs.google.com/document/d/1YHZJTXZSI_OWw633gVVHc3TBQphHxAKP2v9YKRnhHy8/edit?usp=sharing </p> </a>",
+  "marketing.accordion.flyers6": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/document/d/1hdXKoZvYeFJ8FDRYIT7kdNxvB84G-yVe6_1wZh2uuFo/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Affordable Flyers (VI) - Single-page flyers in Vietnamese </h5> </div> <p class='mb-1'> https://docs.google.com/document/d/1hdXKoZvYeFJ8FDRYIT7kdNxvB84G-yVe6_1wZh2uuFo/edit?usp=sharing </p> </a>",
+  "marketing.accordion.flyers7": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/drawings/d/10mf7scN4ldCoXy8alz7UCkzt7N3tTQwJWS81zXfNMxs/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Tri-Fold Flyers (EN, back) - These English flyers explain Bitshares and PalmPay, great for events and meetups, etc. </h5> </div> <p class='mb-1'> https://docs.google.com/drawings/d/10mf7scN4ldCoXy8alz7UCkzt7N3tTQwJWS81zXfNMxs/edit?usp=sharing </p> </a>",
+  "marketing.accordion.flyers8": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/drawings/d/1T3mDxaa7U0IOaD251yNwNiqI_9Fier7QgtnBm3hCzyI/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Tri-Fold Flyers (EN, front) - These English flyers explain Bitshares and PalmPay, great for events and meetups, etc. </h5> </div> <p class='mb-1'> https://docs.google.com/drawings/d/1T3mDxaa7U0IOaD251yNwNiqI_9Fier7QgtnBm3hCzyI/edit?usp=sharing </p> </a>",
+  "marketing.accordion.flyers9": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/drawings/d/1vRLtzCuEOQ04T4iofOxU3pAtZ3GSmQwJXRISd-6NMxs/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Tri-Fold Flyers (GR, back) - These Greek flyers explain Bitshares and PalmPay, great for events and meetups, etc. </h5> </div> <p class='mb-1'> https://docs.google.com/drawings/d/1vRLtzCuEOQ04T4iofOxU3pAtZ3GSmQwJXRISd-6NMxs/edit?usp=sharing </p> </a>",
+  "marketing.accordion.flyers10": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/drawings/d/1_aRidERnsw7080Hqe9CjvtvmuZv3MQWTX30G9exMEa0/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Tri-Fold Flyers (GR, front) - These Greek flyers explain Bitshares and PalmPay, great for events and meetups, etc. </h5> </div> <p class='mb-1'> https://docs.google.com/drawings/d/1_aRidERnsw7080Hqe9CjvtvmuZv3MQWTX30G9exMEa0/edit?usp=sharing </p> </a>",
+
+
+  "marketing.button.business_cards": "Business Cards",
+  "marketing.accordion.business_cards1": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/drawings/d/1zRdI_8tPXOoHi7SuM4RCkUezGQVzfPyMp3hUweYEL1s/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Front - Please do not edit the front of the business cards </h5> </div> <p class='mb-1'> https://docs.google.com/drawings/d/1zRdI_8tPXOoHi7SuM4RCkUezGQVzfPyMp3hUweYEL1s/edit?usp=sharing </p> </a>",
+  "marketing.accordion.business_cards2": "<a target='_blank' rel='noopener noreferrer' href='https://docs.google.com/drawings/d/1dwr31i0Wgh2j9737JyH4OTjix4w31J3mdBA9iCNZ6zs/edit?usp=sharing' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Back - Feel free to edit the back of these cards all you like </h5> </div> <p class='mb-1'> https://docs.google.com/drawings/d/1dwr31i0Wgh2j9737JyH4OTjix4w31J3mdBA9iCNZ6zs/edit?usp=sharing </p> </a>",
+
+
+  "marketing.button.promotional_displays": "Promotional Displays",
+  "marketing.accordion.promotional_displays1": "<a target='_blank' rel='noopener noreferrer' href='https://keybase.io/team/Agorise' class='list-group-item list-group-item-action flex-column align-items-start'> <div class='d-flex w-100 justify-content-between'> <h5 class='mb-1'> Logos, Advertising images, Stickers and Merchandise, etc. (in the /PalmPay folder) </h5> </div> <p class='mb-1'>https://keybase.io/team/Agorise</p> </a>",
+
+  "ambassadors.title": "Ambassadors",
+  "ambassadors.merchants_link_description": "place of business",
+  "ambassadors.description1": "PalmPay Ambassadors are located in your city, or very near to you. Their job is to teach topics concerning Cryptocurrencies and Blockchains. Most offer local Meetups and Workshops too. So, if you are interested in these topics and would like to learn more, or even accept Cryptocurrencies at your ",
+  "ambassadors.description2": ", then be sure to contact a PalmPay Ambassador near you. If you are having trouble finding an Ambassador or would like to apply, feel free to <a target='_blank' rel='noopener noreferrer' href='https://t.me/Agorise'>contact us on Telegram</a> any time, we are glad to assist.",
+
+  "merchants.title": "Merchants",
+  "merchants.ambassadors_link_description": "PalmPay Ambassadors",
+  "merchants.description1": "PalmPay merchants are the backbone of the new Crypto Economy. If you are looking for businesses that will accept your Cryptocurrency, then just use the Search and Map data below. More merchants will be added here as the ",
+  "merchants.description2": " inform us. If you need help, just <a target='_blank' rel='noopener noreferrer' href='https://t.me/Agorise'>join us on Telegram</a> and we will be glad to assist you."
+}
+© 2018 GitHub, Inc.
